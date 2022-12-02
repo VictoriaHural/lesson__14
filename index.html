@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__item">F</div>
+				<div class="header__item">L</div>
+				<div class="header__item">E</div>
+				<div class="header__item">X</div>
+				<div class="header__item">B</div>
+				<div class="header__item">O</div>
+				<div class="header__item">X</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+
+
+				<div class="page__block">
+					<!-- FLEX-контейнер -->
+					<div class="block">
+						<!-- FLEX-елемент -->
+						<div class="block__item">1 ☺</div>
+						<!-- FLEX-елемент -->
+						<div class="block__item">2 ☺</div>
+						<!-- FLEX-елемент -->
+						<div class="block__item">3 ☺</div>
+						<!-- FLEX-елемент -->
+						<div class="block__item">4 ☺</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<!-- Фішка -->
+					<!-- FLEX-контейнер -->
+					<div class="page__row row">
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Column №1
+							</div>
+						</div>
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Column №2
+							</div>
+						</div>
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Column №3
+							</div>
+						</div>
+						<!-- FLEX-елемент -->
+						<div class="column">
+							<!-- Контент -->
+							<div class="item">
+								Column №4
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<!-- Приклад з текстом -->
+					<div class="text-block">
+						<h1 class="text-block__title">Flexbox</h1>
+						<a href="https://flexboxfroggy.com/#uk" class="text-block__link">Flexbox Froggy</a>
+						<div class="text-block__text">
+							Flexbox - це цілий модуль,
+							що містить у собі набір властивостей та їх значень як для
+							батька flex-контейнера, так і для його дочірніх елементів
+							flex-елементів.
+						</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<!-- Приклад з картками -->
+					<div class="cards">
+						<div class="cards__column">
+							<div class="cards__item item-card">
+								<div class="item-card__image">
+									<img src="img/02.jpg" alt="">
+								</div>
+								<div class="item-card__text">
+									<p>Властивості FLEX – елементів.
+										Застосовуються для flex-елемента,
+										дочірнього об'єкта flex-контейнера</p>
+									<p>flex-grow - 0 заборонено. 1 дозволено. (за замовченням - 0)
+										Визначає можливість елемента збільшуватись
+										у розмірі, при необхідності заповнюючи весь
+										flex-контейнер.</p>
+
+								</div>
+								<a href="" class="item-card__button">Button</a>
+							</div>
+						</div>
+						<div class="cards__column">
+							<div class="cards__item item-card">
+								<div class="item-card__image">
+									<img src="img/03.png" alt="">
+								</div>
+								<div class="item-card__text">
+									flex-shrink - 0 заборонено. 1 дозволено. (за замовченням - 1)
+									Визначає можливість елемента зменшуватись
+									у розмірі, при необхідності заповнюючи весь flex-контейєр.
+								</div>
+								<a href="" class="item-card__button">Button</a>
+							</div>
+						</div>
+						<div class="cards__column">
+							<div class="cards__item item-card">
+								<div class="item-card__image">
+									<img src="img/04.jpg" alt="">
+								</div>
+								<div class="item-card__text">
+									flex-basis - Визначає базовий розмір елемента за умовчанням,
+									до розподілу простору, що залишився.
+									Значення можуть бути у відсотках пікселях тощо.
+									auto - розмір по контенту
+								</div>
+								<a href="" class="item-card__button">Button</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="page__block">
+					<!-- Приклад з width -->
+					<a href="https://flexboxzombies.com/p/flexbox-zombies" class="link">Flexbox-zombies</a>
+				</div>
+				<div class="page__block">
+					<!-- Приклад з width №2 -->
+					<div class="object">
+						<div class="object__icon"></div>
+						<div class="object__title">
+							Приклад з width №2
+							Приклад з текстом та зображенням
+						</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<!-- Приклад з float -->
+					<img class="image" style="width: 100px;" src="img/01.jpg" alt="">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi excepturi perferendis consectetur
+					harum
+					reiciendis dignissimos rem odio consequuntur? Voluptates, libero ullam repudiandae magni recusandae
+					aperiam
+					perspiciatis sit architecto quia unde?
+				</div>
+				<div class="page__block">
+					<div class="example">
+						<div class="example__item item-example">
+							<div class="item-example__image">
+								<img src="img/05.jpg" alt="">
+							</div>
+							<div class="item-example__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis
+								provident
+								maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil
+								culpa qui earum. Iste!
+							</div>
+						</div>
+						<div class="example__item item-example">
+							<div class="item-example__image">
+								<img src="img/05.jpg" alt="">
+							</div>
+							<div class="item-example__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis
+								provident
+								maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil
+								culpa qui earum. Iste!
+							</div>
+						</div>
+						<div class="example__item item-example">
+							<div class="item-example__image">
+								<img src="img/05.jpg" alt="">
+							</div>
+							<div class="item-example__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis
+								provident
+								maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil
+								culpa qui earum. Iste!
+							</div>
+						</div>
+						<div class="example__item item-example">
+							<div class="item-example__image">
+								<img src="img/05.jpg" alt="">
+							</div>
+							<div class="item-example__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla itaque id unde, facilis
+								provident
+								maxime voluptatem veritatis commodi omnis voluptate fugiat deserunt at, molestiae voluptas nihil
+								culpa qui earum. Iste!
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<div class="cub">
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+						<div class="cub__item item-cub">
+							<div class="item-cub__image">
+								<img src="img/05.jpg" alt="flexbox">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<div class="quatre">
+						<div class="quatre__item">1</div>
+						<div class="quatre__item">2</div>
+						<div class="quatre__item">3</div>
+						<div class="quatre__item">4</div>
+					</div>
+				</div>
+				<div class="page__block">
+					<div class="slidebar">
+						<div class="slidebar__image">
+							<img src="img/05.jpg" alt="flexbox">
+						</div>
+						<div class="slidebar__text">
+							<h2>Flexbox</h2>
+							Flexbox - це цілий модуль,
+							що містить у собі набір властивостей та їх значень як для
+							батька flex-контейнера, так і для його дочірніх елементів
+							flex-елементів.
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__item">FOOTER</div>
+		</footer>
+	</div>
+</body>
+
+</html>
